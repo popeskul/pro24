@@ -1,0 +1,53 @@
+// Этот блок ответственнен за типографику проекта.
+// Не пишите тут какую-либо стороннюю стилизацию.
+
+body {
+  // font-family: $font-family-sans-serif;
+  min-width: 320px;
+  color: black;
+}
+
+.h1,h1 {
+  font-size: 36px;
+  line-height: normal;
+  
+  @include media-breakpoint-up(md) {}
+}
+
+.h2,h2 {
+  font-size: 24px;
+  line-height: normal;
+  
+  @include media-breakpoint-up(md) {}
+}
+
+.h3,h3 {
+  font-size: 20px;
+  line-height: normal;
+  
+  @include media-breakpoint-up(md) {}
+}
+
+.h4,h4 {
+  @include media-breakpoint-up(md) {}
+}
+
+p, .text {
+  @include media-breakpoint-up(md) {}
+}
+
+a, .link {
+  
+  &:hover, &:focus {
+    text-decoration: none !important;
+  }
+}
+
+.text--uppercase {
+  text-transform: uppercase;
+}
+
+.text--light {
+  font-weight: 300;
+}
+

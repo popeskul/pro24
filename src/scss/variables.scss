@@ -1,0 +1,62 @@
+// font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic-ext');
+
+$open-sans: 'Open Sans', sans-serif;
+$font-family-sans-serif: $open-sans;
+
+$grid-columns:      12;
+$grid-gutter-width: 30px;
+
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1400px;
+$screen-xxl: 1700px;
+
+// color: var(--blue);
+
+// media 
+// @include media-breakpoint-up(sm) {}
+// @include media-breakpoint-up(md) {}
+// @include media-breakpoint-up(lg) {}
+// @include media-breakpoint-up(xl) {}
+
+// @include media-breakpoint-down(xs) {}
+// @include media-breakpoint-down(sm) {}
+// @include media-breakpoint-down(md) {}
+// @include media-breakpoint-down(lg) {}
+
+// grid 
+// .col- .col-sm-  .col-md-  .col-lg-  .col-xl-
+// .col- .col-6    .col-
+// .col- .col-     .col-
+// .no-gutters - No gutters
+
+// Creates a wrapper for a series of columns
+// @include make-container();
+// @include make-row();
+
+// Make the element grid-ready (applying everything but the width)
+// @include make-col-ready();
+// @include make-col($size, $columns: $grid-columns);
+
+// Get fancy by offsetting, or changing the sort order
+// @include make-col-offset($size, $columns: $grid-columns);
+
+// color
+$color-dark: #787E8D;
+$color-darkness: #303033;
+$color-dust: #3A3B40;
+$color-space: #252528;
+$color-light: #515153;
+$color-lighter: #97A0B2;
+$color-ocean: #205ad0;
+$color-river: #EDF4F8;
+$color-shadow: #EAECF0;
+
+.container {
+  @media(max-width: 700px) {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}

@@ -1,0 +1,211 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$dropdown-dark-name: 'dropdown-dark';
+$dropdown-dark-x: 31px;
+$dropdown-dark-y: 102px;
+$dropdown-dark-offset-x: -31px;
+$dropdown-dark-offset-y: -102px;
+$dropdown-dark-width: 10px;
+$dropdown-dark-height: 5px;
+$dropdown-dark-total-width: 132px;
+$dropdown-dark-total-height: 115px;
+$dropdown-dark-image: '../img/sprite-012579670129778542.png';
+$dropdown-dark: (31px, 102px, -31px, -102px, 10px, 5px, 132px, 115px, '../img/sprite-012579670129778542.png', 'dropdown-dark', );
+$dropdown-name: 'dropdown';
+$dropdown-x: 17px;
+$dropdown-y: 102px;
+$dropdown-offset-x: -17px;
+$dropdown-offset-y: -102px;
+$dropdown-width: 10px;
+$dropdown-height: 5px;
+$dropdown-total-width: 132px;
+$dropdown-total-height: 115px;
+$dropdown-image: '../img/sprite-012579670129778542.png';
+$dropdown: (17px, 102px, -17px, -102px, 10px, 5px, 132px, 115px, '../img/sprite-012579670129778542.png', 'dropdown', );
+$email-name: 'email';
+$email-x: 88px;
+$email-y: 76px;
+$email-offset-x: -88px;
+$email-offset-y: -76px;
+$email-width: 16px;
+$email-height: 13px;
+$email-total-width: 132px;
+$email-total-height: 115px;
+$email-image: '../img/sprite-012579670129778542.png';
+$email: (88px, 76px, -88px, -76px, 16px, 13px, 132px, 115px, '../img/sprite-012579670129778542.png', 'email', );
+$email-active-name: 'email_active';
+$email-active-x: 68px;
+$email-active-y: 76px;
+$email-active-offset-x: -68px;
+$email-active-offset-y: -76px;
+$email-active-width: 16px;
+$email-active-height: 13px;
+$email-active-total-width: 132px;
+$email-active-total-height: 115px;
+$email-active-image: '../img/sprite-012579670129778542.png';
+$email-active: (68px, 76px, -68px, -76px, 16px, 13px, 132px, 115px, '../img/sprite-012579670129778542.png', 'email_active', );
+$icon-facebook-name: 'icon-facebook';
+$icon-facebook-x: 124px;
+$icon-facebook-y: 0px;
+$icon-facebook-offset-x: -124px;
+$icon-facebook-offset-y: 0px;
+$icon-facebook-width: 8px;
+$icon-facebook-height: 15px;
+$icon-facebook-total-width: 132px;
+$icon-facebook-total-height: 115px;
+$icon-facebook-image: '../img/sprite-012579670129778542.png';
+$icon-facebook: (124px, 0px, -124px, 0px, 8px, 15px, 132px, 115px, '../img/sprite-012579670129778542.png', 'icon-facebook', );
+$icon-instagram-name: 'icon-instagram';
+$icon-instagram-x: 49px;
+$icon-instagram-y: 76px;
+$icon-instagram-offset-x: -49px;
+$icon-instagram-offset-y: -76px;
+$icon-instagram-width: 15px;
+$icon-instagram-height: 15px;
+$icon-instagram-total-width: 132px;
+$icon-instagram-total-height: 115px;
+$icon-instagram-image: '../img/sprite-012579670129778542.png';
+$icon-instagram: (49px, 76px, -49px, -76px, 15px, 15px, 132px, 115px, '../img/sprite-012579670129778542.png', 'icon-instagram', );
+$icon-vk-name: 'icon-vk';
+$icon-vk-x: 25px;
+$icon-vk-y: 76px;
+$icon-vk-offset-x: -25px;
+$icon-vk-offset-y: -76px;
+$icon-vk-width: 20px;
+$icon-vk-height: 15px;
+$icon-vk-total-width: 132px;
+$icon-vk-total-height: 115px;
+$icon-vk-image: '../img/sprite-012579670129778542.png';
+$icon-vk: (25px, 76px, -25px, -76px, 20px, 15px, 132px, 115px, '../img/sprite-012579670129778542.png', 'icon-vk', );
+$location-name: 'location';
+$location-x: 108px;
+$location-y: 76px;
+$location-offset-x: -108px;
+$location-offset-y: -76px;
+$location-width: 10px;
+$location-height: 13px;
+$location-total-width: 132px;
+$location-total-height: 115px;
+$location-image: '../img/sprite-012579670129778542.png';
+$location: (108px, 76px, -108px, -76px, 10px, 13px, 132px, 115px, '../img/sprite-012579670129778542.png', 'location', );
+$logo-dark-name: 'logo-dark';
+$logo-dark-x: 0px;
+$logo-dark-y: 38px;
+$logo-dark-offset-x: 0px;
+$logo-dark-offset-y: -38px;
+$logo-dark-width: 120px;
+$logo-dark-height: 34px;
+$logo-dark-total-width: 132px;
+$logo-dark-total-height: 115px;
+$logo-dark-image: '../img/sprite-012579670129778542.png';
+$logo-dark: (0px, 38px, 0px, -38px, 120px, 34px, 132px, 115px, '../img/sprite-012579670129778542.png', 'logo-dark', );
+$logo-name: 'logo';
+$logo-x: 0px;
+$logo-y: 0px;
+$logo-offset-x: 0px;
+$logo-offset-y: 0px;
+$logo-width: 120px;
+$logo-height: 34px;
+$logo-total-width: 132px;
+$logo-total-height: 115px;
+$logo-image: '../img/sprite-012579670129778542.png';
+$logo: (0px, 0px, 0px, 0px, 120px, 34px, 132px, 115px, '../img/sprite-012579670129778542.png', 'logo', );
+$phone-name: 'phone';
+$phone-x: 0px;
+$phone-y: 102px;
+$phone-offset-x: 0px;
+$phone-offset-y: -102px;
+$phone-width: 13px;
+$phone-height: 13px;
+$phone-total-width: 132px;
+$phone-total-height: 115px;
+$phone-image: '../img/sprite-012579670129778542.png';
+$phone: (0px, 102px, 0px, -102px, 13px, 13px, 132px, 115px, '../img/sprite-012579670129778542.png', 'phone', );
+$play-name: 'play';
+$play-x: 0px;
+$play-y: 76px;
+$play-offset-x: 0px;
+$play-offset-y: -76px;
+$play-width: 21px;
+$play-height: 22px;
+$play-total-width: 132px;
+$play-total-height: 115px;
+$play-image: '../img/sprite-012579670129778542.png';
+$play: (0px, 76px, 0px, -76px, 21px, 22px, 132px, 115px, '../img/sprite-012579670129778542.png', 'play', );
+$spritesheet-width: 132px;
+$spritesheet-height: 115px;
+$spritesheet-image: '../img/sprite-012579670129778542.png';
+$spritesheet-sprites: ($dropdown-dark, $dropdown, $email, $email-active, $icon-facebook, $icon-instagram, $icon-vk, $location, $logo-dark, $logo, $phone, $play, );
+$spritesheet: (132px, 115px, '../img/sprite-012579670129778542.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
